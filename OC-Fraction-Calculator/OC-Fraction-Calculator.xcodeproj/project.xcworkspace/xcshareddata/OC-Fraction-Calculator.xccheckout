@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>DA143769-5ED2-413B-80A0-AA080883FACD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>OC-Fraction-Calculator</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>577287EBC43421CC9F9824EE92F459D2E7D1CD00</key>
 		<string>https://github.com/lzcuriosity/OC-Fraction-Calculator.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OC-Fraction-Calculator/OC-Fraction-Calculator.xcodeproj</string>
+	<string>OC-Fraction-Calculator/OC-Fraction-Calculator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>577287EBC43421CC9F9824EE92F459D2E7D1CD00</key>
