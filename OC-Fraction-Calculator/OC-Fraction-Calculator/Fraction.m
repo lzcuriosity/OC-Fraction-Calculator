@@ -72,7 +72,12 @@
     
 }
 
-
+-(Fraction *)reduceFraction:(Fraction *)f
+{
+    Fraction *result = f;
+    [result reduce];
+    return result;
+}
 
 -(void)reduce
 {

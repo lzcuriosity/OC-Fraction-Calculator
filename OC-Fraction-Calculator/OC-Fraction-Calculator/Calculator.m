@@ -48,6 +48,9 @@
         case '/':
             result = [operand1 divide:operand2];
             break;
+        case '=':
+            result = [operand1 reduceFraction: operand1];
+            break;
         default:
             break;
     }

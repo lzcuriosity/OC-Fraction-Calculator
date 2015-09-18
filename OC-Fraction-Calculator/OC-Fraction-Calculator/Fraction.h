@@ -19,6 +19,7 @@
 -(Fraction *) subtract: (Fraction *) f;
 -(Fraction *) multiply: (Fraction *) f;
 -(Fraction *) divide: (Fraction *) f;
+-(Fraction *) reduceFraction: (Fraction *) f;
 
 -(void) reduce;
 
