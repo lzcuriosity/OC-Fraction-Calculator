@@ -13,15 +13,90 @@
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+{
+    char op;
+    int currentNumber;
+    BOOL firstOperand, isNumberator;
+    Calculator *myCalculator;
+    NSMutableString *displayString;
+    
 }
 
-- (void)didReceiveMemoryWarning {
+@synthesize display;
+
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    firstOperand = YES;
+    isNumberator = YES;
+    displayString = [NSMutableString stringWithCapacity: 40];
+    myCalculator = [[Calculator alloc] init];
+    display.lineBreakMode = NSLineBreakByTruncatingHead;     //display显示方式，隐藏开头
+}
+
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+ 
+}
+
+
+
+- (IBAction)clickDight:(UIButton *)sender
+{
+}
+
+- (IBAction)clickPlus:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)clickMinus:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)clickMultiply:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)clickDivide:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)clickEquals:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)clickClear:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)clickOver:(UIButton *)sender
+{
+    
+}
+
+
+-(void)processDight:(int)dight
+{
+    
+}
+
+-(void)processOp:(char)theOp
+{
+    
+}
+
+-(void)storeFracPart
+{
+    
 }
 
 @end
